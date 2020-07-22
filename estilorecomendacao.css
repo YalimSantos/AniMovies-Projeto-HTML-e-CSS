@@ -1,0 +1,123 @@
+body{
+	margin 0;
+	padding 0;
+	font-family: Times-New-Roman, Times, serif;
+	background-color: #192a56;
+}
+#NavBar ul{
+	list-style-type: none;
+	text-decoration-style: none;
+	background-color: #3498db;
+	height: 50px;
+	text-align: center;
+	margin-top: -10px;
+}
+#NavBar ul .NavItens{
+	display: inline;
+}
+#NavBar ul .NavItens a{
+	text-decoration: none;
+	font-size: 20px;
+	margin: 15px;
+	padding: 13px;
+	display: inline-block;
+	color: #ffffff;
+	margin-top: 1px;
+	overflow: hidden;
+}
+#NavBar ul .NavItens a:hover{
+	color: #000000;
+}
+#NavBar ul .NavItens #Ativo{
+	background-color: #2980b9;
+}
+#NavBar ul #logo{
+	display: inline;
+}
+#NavBar ul #Logo a{
+	text-decoration: none;
+	float: left;
+	padding: 14px;
+	padding-bottom: 8px;
+	display: inline-block;
+	font-size: 28px;
+	color: #1B1464;	
+	margin-top: -73px;
+}
+#NavBar ul #Logo a:hover{
+	color: #ffffff;
+}
+#Conteudo{
+	margin-top: 50px;
+	margin-left: 75px;
+	margin-right: 75px;
+	border: 1px solid #000000;
+	border-top: none;
+}
+#Texto{
+	margin-left: 60px;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 24px;
+}
+#Itens ul{
+	list-style-type: none;
+}
+#Itens ul li{
+	display: inline;
+}
+#Itens ul li a{
+	margin: 20px;
+	text-decoration: none;
+	text-align: bottom;
+	height: 150px;
+	width: 210px;
+	border: 1px solid #000000;
+	display: inline-block;
+	background-color: #dfe6e9;
+}
+#Itens ul li a:hover{
+	border: 1px solid #00a8ff;
+	box-shadow: 2px 2px #00a8ff, -2px 2px #00a8ff, 2px -2px #00a8ff, -2px -2px #00a8ff;
+}
+#Itens ul li a:hover p{
+	text-decoration: underline;
+}
+#Itens ul li a img{
+	width: 210px;
+	height: 100px;
+}
+#Itens ul li a p{
+	text-align: center;
+	color: #000000;
+	font-weight: bold;
+}
+@media(max-width: 900px){
+	#NavBar ul #Logo a{
+		font-size: 22px;
+		padding: 15px;
+		padding-bottom: 9px;
+		margin-left: -30px;
+		margin-top: -71px;
+	}
+}
+@media(max-width: 750px){
+	#NavBar ul #Logo{
+		visibility: hidden;
+	}
+}
+@media(max-width: 600px){
+	#NavBar ul #Logo{
+		visibility: hidden;
+	}
+	#NavBar ul{
+		height: 40px;
+	}
+	#NavBar ul .NavItens a{
+		font-size: 15px;
+		margin: 10px;
+		padding: 15px;
+		padding-bottom: 10px;
+		margin-top: -2px;	
+	}
+}
